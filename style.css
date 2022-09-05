@@ -1,0 +1,50 @@
+#particles-js
+{ 
+	width:99vw; 
+	height:93vh; 
+	background-color: #252525; 
+	margin: auto; 
+	top: 6%;
+	border-radius: 5px;
+	position: absolute;
+} 
+
+.buttonh {
+	background-color: #282828; /* Green */
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 13px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	border-radius: 20px;
+	/* left: 43vw; */
+	width: 180px;
+	height: 60px;
+	/* right: 0; */
+	/* top: 150vh; */
+	/* position: absolute; */
+	/* margin: auto; */
+	transition-duration: 0.4s;
+	cursor: pointer;
+  }
+
+  .button1 {
+	background-color: #282828; 
+	color: white; 
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	/* position: absolute;
+	top: 60vh; */
+	font-weight: 400;
+  }
+
+  .button1:hover {
+	background-color: #323232;
+	box-shadow: 0, 0, 8px, rgba(255, 255, 255, 1);
+	-webkit-box-shadow: 0 0 8px rgba(255,255,255,1);
+	-moz-box-shadow: 0 0 8px rgba(255,255,255,1);
+	color: white;
+  }
