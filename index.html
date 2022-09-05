@@ -1,40 +1,40 @@
 <!DOCTYPE html>
 <html>
 
-
-
 <head>
     <title>Cadmium V3</title>
 
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width">
-
-    <!-- Scripts -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-    <!-- <script src=
-        "particles.js-master/particles.js">
-    </script>
-
-    <script src=
-        "particles.js-master/app.js">
-    </script> -->
-    <!-- Scripts -->
-
-    <script>
-        $(document).ready(function(){
-                $('#particles-js').load("proxy/terbiumos.html");
-            });
-    </script>
 </head>
 
 <!-- Content Div -->
 <body style="background-color:#202020;">
     <div id="particles-js"> 
-        <!-- <img src="etc/logo.png"  style="position: absolute; left: 43vw; top: 30vh;" width="196" height="196">
-        <button id="terbiumOS" class="buttonh button1" style="position: absolute; left: 43.5vw; top: 56vh;" type="button" onclick="load_home()">TerbiumOS</button> -->
+        <img src="etc/logo.png"  style="position: absolute; left: 43vw; top: 30vh;" width="196" height="196">
+        <button id="terbiumOS" class="buttonh button1" style="position: absolute; left: 43.5vw; top: 56vh;" type="button" onclick="load_home()">TerbiumOS</button>
     </div> 
 </body>
 <!-- Content Div -->
+
+<!-- Scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script src=
+    "particles.js-master/particles.js">
+</script>
+
+<script src=
+    "particles.js-master/app.js">
+</script>
+
+<script>
+    function load_home() {
+        $(document).ready(function(){
+            $('#particles-js').load("proxy/terbiumos.html");
+        });
+    }
+</script>
+<!-- Scripts -->
 
 </html>
