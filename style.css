@@ -1,10 +1,10 @@
 #particles-js
 { 
 	width:99vw; 
-	height:93vh; 
+	height:94vh; 
 	background-color: #252525; 
 	margin: auto; 
-	top: 6%;
+	top: 5%;
 	border-radius: 5px;
 	position: absolute;
 } 
@@ -14,10 +14,11 @@
 	width: 30vw;
 	height: 4vh;
 	left: 35vw;
+	bottom: 96vh;
 	background-color: #252525;
 	margin: auto;
 	position: absolute;
-	border-radius: 5px;
+	border-radius: 0 0 5px 5px;
 
 	text-align: center;
 	text-decoration: none;
